@@ -1,0 +1,16 @@
+label {
+ cursor: pointer;
+}
+input[type=text]:hover{
+    border-color: darkblue;
+    border-width: 1px;
+}
+label:focus-within{
+    color: blue;
+}
+input[type=text]:focus{
+    border:1px solid  darkblue;
+}
+.accesskey{
+    text-decoration: underline;
+}
